@@ -1,0 +1,170 @@
+body{
+	width:1120px;
+	margin:0 auto;
+	padding:0;
+	font-family:"Micorosoft Yahei";
+	background:#F3F3F3;
+}
+p,h1,h2,h3,h4,h5,h6,img,ul{
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	vertical-align:middle;
+}
+header{
+	width:100%;
+	border-bottom:1px solid #C4C4C4;
+	overflow:hidden;
+}
+header #top{
+	margin:30px auto 10px;
+}
+header #top>img{
+	float:left;
+	margin-right:20px;
+	margin-left:52px;
+}
+header #top ul{
+	overflow:hidden;
+}
+header #top ul li{
+	float:left;
+	margin-right:10px;
+	color:#969696;
+	line-height:45px;
+	margin-left:10px;
+}
+header #top ul li i{
+	display:inline-block;
+	width:2px;
+	height:2px;
+	border:1px solid #FF6702;
+	background:#FF6702;
+	margin-right:5px;
+	margin-bottom:3px;
+}
+header #top ul li b{
+	border:1px solid black;
+}
+header #top ul .phone{
+	font-weight:bold;
+	background:url(images/UC_01_06.jpg)no-repeat center left;
+	padding-left:18px;
+}
+nav{
+	border-bottom:2px solid #FC641B;
+	overflow:hidden;
+	margin-top:24px;
+	padding-top:5px;
+}
+nav ul{
+	float:left;
+	margin-left:51px;
+}
+nav ul li{
+	float:left;
+	margin-right:71px;
+	font-weight:bold;
+	text-align:center;
+	font-size:14px;
+}
+nav ul li a {
+	display:inline-block;
+	color:#656565;
+	height:25px;
+}
+nav ul li a:hover{
+	color:#F97636;
+	background:url(images/UC_01_18.jpg)no-repeat center bottom;
+}
+nav img{
+	float:left;
+	margin-left:108px;
+	position:relative;
+	top:-4px;
+}
+#list{
+	overflow:hidden;
+}
+#list ul{
+	float:right;
+	margin-right:46px;
+}
+#list ul li {
+	float:left;
+	font-size:12px;
+	margin-right:20px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+#list ul li a{
+	color:#616161;
+	font-weight:bold;
+}
+#list ul li a:hover{
+	color:#F9671E;
+}
+#list img{
+	margin-left:48px;
+}
+section #main{
+	width:937px;
+	overflow:hidden;
+	margin-left:47px;
+	margin-top:20px;
+}
+section #main ul{
+	overflow:hidden;
+}
+section #main ul li{
+	float:left;
+	border:1px solid #C3C3C3;
+}
+section #main ul li h4{ 
+	text-align:center;
+	margin-top:10px;
+}
+section #main ul li img{
+	margin:10px 22px 10px 20px;
+}
+section #main ul .jxw{
+	padding-right:10px;
+}
+section #main ul li h4 a{
+	color:#929292;
+}
+section #main ul li h4 a:hover{
+	color:#F76822;
+}
+section #main ul li img:hover{
+	position:relative;
+	top:-2px;
+	left:0px;
+	cursor:pointer;
+}
+footer{
+	background:#D6D6D6;
+	margin-top:20px;
+	padding-top:12px;
+	padding-bottom:10px;
+}
+footer p{
+	font-weight:bold;
+	text-align:center;
+	font-size:10px;
+	color:#666;
+	line-height:20px;
+}
+#name:hover{
+	position:relative;
+	top:-2px;
+	left:0px;
+	cursor:pointer;
+}
